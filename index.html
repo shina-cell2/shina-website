@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" >
+</head>
+
+<body>
+    <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+    <header>
+        <h1>
+            <a href="index.html">Freelancer</a>
+        </h1>
+        <div class="nav">
+            <a onclick="toggleFilters()" class="btn"> <img src="menu.png" alt="menu"></a>
+        </div>
+    </header>
+    <div class="main-content">
+        <aside class="filters hidden">
+            <div>
+                <a href="index.html">Home</a>
+            </div>
+            <p>
+            <div>
+                <a href="about.html">About</a>
+            </div>
+            <p>
+            <div>
+                <a href="skills.html">Why Us </a>
+            </div>
+            <p>
+            <div>
+                <a href="contact.html">Contact</a>
+            </div>
+
+        </aside>
+    </div>
+
+    <div class="welcome">
+        <p>Best way to <br>Create a<span> webpage</span>
+        </p>
+        <h5>intelligence is nothing without ambition We’re small but impressive creative agency. You’re safe with us. The
+            privacy and security of your financial information is our top priority.
+        </h5>
+        <div class="more">
+            <a href="about.html"> Read More</a>
+        </div>
+
+        <div class="img">
+            <img src="determine.png" alt="Home image loading">
+        </div>
+    </div>
+    <footer>
+        <h2>Contact us </h2>
+        <h4>09028240393, 07031209855</h4>
+        <form action="https://formsubmit.co/shinaadedoja@gmail.com" method="POST" />
+            <input type="email" name="email" id="subcribe" placeholder="Enter your email " autocomplete="email" required  autocomplete="email" required> 
+            <button type="submit">SUBSCRIBE</button> 
+        </form>
+    </footer>
+    <section class="footer_section">
+        <p>
+            Copyright &copy; 2025 All Rights Reserved By
+            <a href="https://youtube.com/@interesting-explainer?si=Tx-u_d3elfP2Wn_r">Adedoja Shina</a>
+        </p>
+    </section>
+    <script>
+        function toggleFilters() {
+            const filterSection = document.querySelector(".filters");
+            filterSection.classList.toggle("hidden");
+        }
+    </script>
+</body>
+
+</html>

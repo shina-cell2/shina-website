@@ -1,0 +1,372 @@
+body {
+    background: black;
+    margin: 0;
+    padding: 0;
+    font-family: Consolas;
+    color: white;
+
+
+}
+
+.nav {
+    justify-self: right;
+    position: relative;
+    top: -50px;
+}
+
+header {
+    margin: 0;
+}
+
+header h1 {
+    margin-left: 20px;
+    font-size: 24px;
+}
+
+header h1 a {
+    text-decoration: none;
+    color: white;
+    outline: none !important;
+    transition: 0.5s;
+
+}
+
+header h1 a:hover{
+    color: yellow;
+
+}
+
+header a img { 
+    width: 45px;
+    margin-right: 15px;
+    outline: none !important;
+
+}
+
+
+.welcome p {
+    text-align: center;
+    font-size: 44px;
+    margin-top: 140px;
+    font-family: Arial Rounded Mt;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+
+.welcome p span{
+    color: yellow;
+    
+}
+
+.welcome h5 {
+    text-align: center;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: -20px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+}
+
+.more a {
+    background-color: rgb(4, 4, 230);
+    border: none;
+    border-radius: 7px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 19px;
+    font-family: Segoe UI;
+    outline: none !important; 
+    transition: all 0.1s ease 0.1s;
+}
+
+.more a:hover {
+   box-shadow: white 0px 0px 10px ;
+   position: relative;
+   top: -10px;
+   
+}
+
+.more {
+    justify-self: center;
+    margin-top: 50px;
+}
+
+.img img {
+    width: 90%;
+    margin-top: 50px;
+    max-width: 500px;
+    margin-left: 5%;
+
+}
+
+.filters.hidden {
+    display: none;
+}
+ 
+.main-content {
+    margin-top: 10px;
+    text-align: center;
+    transition: 1s;
+
+}
+
+.main-content a {
+    text-decoration: none;
+    font-size: 30px;
+    font-family: Forte;
+    color: white;
+    text-transform: capitalize;
+    transition: 0.3s;
+    outline: none !important;
+    font-weight: 400;
+}
+
+.main-content a:hover {
+    color: red;
+    letter-spacing: 5px;
+}
+
+
+.footer_section {
+    background-color: #d8b109;
+    padding:15px 15px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+
+}
+
+.footer_section p {
+    color: #fdfdfe;
+    margin: 0;
+    text-align: center;
+}
+
+.footer_section a {
+    color: white;
+    text-decoration: none;
+}
+
+.contact h2 {
+    margin-left: 5%;
+    font-weight: 500;
+    margin-top: 50px  
+}
+
+form {
+    width: 85%;
+    margin-left: 5%;
+    max-width: 500px;
+    margin-top: 30px
+}
+
+form #name {
+    width: 100%;
+    border: none;
+    border-bottom: solid white 1px;
+    background-color: transparent;
+    color: white;
+    padding: 10px;
+    font-size: 17px;
+    outline: none !important;
+    margin-top: 15px;
+} 
+
+form #email {
+    width: 100%;
+    border: none;
+    border-bottom: solid white 1px;
+    background-color: transparent;
+    color: white;
+    padding: 10px;
+    font-size: 17px;
+    outline: none !important;
+    margin-top: 15px;
+} 
+form #number {
+    width: 100%;
+    border: none;
+    border-bottom: solid white 1px;
+    background-color: transparent;
+    color: white;
+    padding: 10px;
+    font-size: 17px;
+    outline: none !important;
+    margin-top: 15px;
+} 
+form #text {
+    width: 100%;
+    border: none;
+    border-bottom: solid white 1px;
+    background-color: transparent;
+    color: white;
+    padding: 10px;
+    font-size: 17px;
+    outline: none !important;
+    margin-top: 60px;
+}
+
+
+::placeholder {
+    color: gray;
+}
+
+form button#send {  
+    margin-top: 60px;
+    width: 150px;
+    padding: 15px;
+    background-color: rgba(255, 255, 0, 0.797);
+    border: none;
+    border-radius: 10cap;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 17px;
+    outline: none !important;
+    color: black;
+    transition: 0.2s;
+} 
+ 
+form button#send:hover{
+    background-color: yellow;
+}
+
+.contactimg img {
+    width: 90%;
+    margin-top: 80px;
+    max-width: 500px;
+    margin-left: 5%;
+}
+
+.contactimg{
+    justify-self: center;
+}
+.about img {
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 60px;
+    max-width: 400px;
+}
+
+.explain h1 {
+    text-align: right;
+    margin-top: 40px;
+    margin-right: 20px;
+}
+
+.explain h4 {
+    text-align: right;
+    margin-right: 20px;
+    font-family: Bahnschrift;
+    font-weight: 200;
+    margin-left: 10px;
+    font-size: 15px;
+}
+
+.explain h4 span{
+    color: yellow;
+}
+
+.explain {
+    max-width: 500px;
+    justify-self: right;
+}
+.computer img {
+    width: 90%;
+    margin-top: 20px;  
+    max-width: 500px;
+    margin-left: 5%;
+}
+
+.computer {
+    justify-self: center;
+    margin-bottom: 40px;
+}
+
+.skillstext {
+    text-align: center;
+    margin-top: 20px;
+    max-width: 500px;
+}
+
+.skillstext h2 {
+    font-family: MS Reference Sans Serif;
+    letter-spacing: 3px;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.skillstext h4 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.skillstext a {
+    color: blue;
+    text-decoration: none;
+    font-size: 20px;
+
+
+}
+
+.allskills {
+    justify-self: center;
+}
+
+footer{
+    background-color: rgb(54, 57, 57);
+    height: 200px;
+    text-align: center;
+    margin-top: 11pc;
+
+}
+
+footer h2{
+   position: relative;
+   top: 30px;
+   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   font-weight: 500;
+}
+
+footer h4{
+   margin-top: 40px;
+}
+
+footer input{
+    width: 60%; 
+    height: 35px;
+    border: none;   
+    padding-left: 10px; 
+} 
+
+footer form{
+   justify-self: center;
+   max-width: 500px;
+}
+
+footer button{
+    height: 35px;
+    width: 30%;
+    border: none;
+    background-color: rgb(255, 255, 0);
+    color: #ffffff;
+    font-family: cursive;
+    font-size: 10px;
+}
+
+footer button:hover{
+    background-color: yellow;
+    color: white;
+}
+
+footer input::placeholder{
+    color: gray ;
+    font-family: monospace;
+    font-size: 14px;
+}
+
